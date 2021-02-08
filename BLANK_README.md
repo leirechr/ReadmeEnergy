@@ -1,16 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -26,31 +13,6 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">project_title</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
-</p>
 
 
 
@@ -84,20 +46,22 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This repository is part of the project for Advance Energy Insights.
+This repository is part of the project for Advance Energy Insights. The project can be divided in two categories:
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+**1. Forecasting Regression Tool:** This tool provides with a forecast of energy consumption in a frequency of hours and days.
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+**2. Benchmarking:** This set of numerical calculations, calculate the CDD (Cooling Degree Day) according to the desired threshold for energy benchmarking purposes.
 
 
 ### Features
-
-* []()
-* []()
-* []()
+The repository is divided into the following files:
+* **Main_Script_H & Main_Script_D:** These are the main scripts that will call the ones below. The one ending in "H" will forecast for hourly values whereas the one ending in "D" will forecast daily values.
+* **Preprocess_resample:** This function takes care of the NaNs, performs interpolation and resamples to the desired frequency.
+* **feature_selection:** This function performs feature selection by variance threshold, and by an ANOVA test where it will return a ranking of the most influencial parameters on energy.
+* **Polynomial_regression:** This function performs a univariate third order polynomial regression in the same manner as DES tool would do.
+* **knn_regression:** This function performs a multivariate knn regression with the features selected from the "feature_selection" script.
+* **plots:** Plots function graphically shows the results of the forecast regression tools.
+* **TO_POWERBI:** This script is the only one not called by the "Main_Script". In here, the daily and hourly results are combined and arranged to be suitable for the POWERBI dashboard.
 
 
 
