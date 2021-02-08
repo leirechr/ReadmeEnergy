@@ -72,23 +72,20 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To run this project, you need a conda installation with Python 3.8 or higher. follow the tutorial on [activestate](https://www.activestate.com/resources/quick-reads/how-to-manage-python-dependencies-with-conda/) to install the
+needed packages in the requirements.txt file included.
+
+### Project Dependencies
+Access to Azure machine learning is also needed to run and monitor the training of the Ml algorithm as well as viewing results. please login to [Azure](https://portal.azure.com)
+
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://danfoss.visualstudio.com/ECSServiceSandbox/_git/Energy
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
+2. Install txt depencencies
 
 
 <!-- USAGE EXAMPLES -->
