@@ -61,7 +61,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Features">Features</a></li>
       </ul>
     </li>
     <li>
@@ -84,6 +84,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This repository is part of the project for Advance Energy Insights.
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -92,7 +93,7 @@ Here's a blank template to get started:
 `github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
 
-### Built With
+### Features
 
 * []()
 * []()
