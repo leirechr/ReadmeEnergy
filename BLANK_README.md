@@ -22,8 +22,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#project_dependencies">Project Dependencies</a></li>
+        <li><a href="#project-dependencies">Project Dependencies</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#additional-documentation">Additional Documentation</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
