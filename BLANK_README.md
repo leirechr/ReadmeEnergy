@@ -46,7 +46,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This repository is part of the project for Advance Energy Insights. The project can be divided in two categories:
+This repository is part of the project for Advance Energy Insights.  The project can be divided in two categories:
 
 **1. Forecasting Regression Tool:** This tool provides with a forecast of energy consumption in a frequency of hours and days.
 
@@ -68,7 +68,7 @@ The repository is divided into the following files:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -77,7 +77,6 @@ needed packages in the requirements.txt file included.
 
 ### Project Dependencies
 Access to Azure machine learning is also needed to run and monitor the training of the Ml algorithm as well as viewing results. please login to [Azure](https://portal.azure.com)
-
 
 ### Installation
 
@@ -89,18 +88,9 @@ Access to Azure machine learning is also needed to run and monitor the training 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+## Additional Documentation
 
 _For more detailed explanations, please refer to the [Documentation](https://danfoss.visualstudio.com/ECSServiceSandbox/_wiki/wikis/ECSServiceSandbox.wiki/8868/Advanced-Energy-Services)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
 
 
 
@@ -127,26 +117,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Leire Chavarri - leire.chavarri@danfoss.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://danfoss.visualstudio.com/ECSServiceSandbox/_git/Energy](https://danfoss.visualstudio.com/ECSServiceSandbox/_git/Energy)
 
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
