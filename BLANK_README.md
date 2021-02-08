@@ -28,7 +28,6 @@
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -37,7 +36,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This repository is part of the project for Advance Energy Insights where we are aiming to provide with regression tools for energy forecasting, baselining and benchmarking. 
+This repository is part of the project for **Advance Energy Insights** where we are aiming to provide with regression tools for energy forecasting, baselining and benchmarking. 
 
 The project can be divided in two categories:
 
@@ -97,13 +96,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
