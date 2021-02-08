@@ -1,4 +1,4 @@
-
+# ADVANCE ENERGY INSIGHTS
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -37,7 +37,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This repository is part of the project for Advance Energy Insights.  The project can be divided in two categories:
+This repository is part of the project for Advance Energy Insights where we are aiming to provide with regression tools for energy forecasting, baselining and benchmarking. 
+
+The project can be divided in two categories:
 
 **1. Forecasting Regression Tool:** This tool provides with a forecast of energy consumption in a frequency of hours and days.
 
